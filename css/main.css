@@ -17,6 +17,7 @@ h1 {
   font-size: 3rem;
   color: #b20953;
   margin: 0;
+  padding: 0;
 }
 
 header {
@@ -26,13 +27,16 @@ header {
 }
 
 main {
-  padding: .4em;
+  padding-left: .4em;
+  padding-right: .4em;
 }
 
 footer {
   background-color: #ffe500;
   text-align: center;
-  padding: 10px;
+  padding: .4em;
+  margin: 0;
+  color: #2f2d13;
 }
 
 h2 {
@@ -51,9 +55,9 @@ a {
   color: white;
   border-radius: 4px;
   text-align: center;
-  font-family: georgia;
+  font-family: Georgia;
   text-decoration: none;
-  padding: .2em .5em .3em;
+  padding: 10px;
 }
 
 img {
@@ -66,15 +70,22 @@ img {
 }
 
 ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 
 p {
   font-family: Georgia;
   line-height: 1.5;
+  color: #2f2d13;
 }
 
 .current {
-  background-color: #2f2d13;
+  background-color: #b20953;
+}
+
+.footer {
+  margin: 0;
+  padding: .4em;
 }
